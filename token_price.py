@@ -1,6 +1,10 @@
 import requests
 
 def get_crypto_prices(symbol):
+    symbol = symbol.upper()
+    if symbol=="CBETH":
+        symbol="cbETH"
+    
     api_key = 'dcbf10f7-68dd-43c1-840a-ec5d5fbac3f8'
     
     url = f'https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?symbol={symbol}&convert=USD'
@@ -19,4 +23,4 @@ def get_crypto_prices(symbol):
     return price
 
 if __name__ == "__main__":
-    get_crypto_prices("WETH")
+    get_crypto_prices("SDAI")

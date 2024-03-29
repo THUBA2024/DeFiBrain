@@ -1,4 +1,6 @@
 import requests
+from token_price import get_crypto_prices
+import json
 
 RAY = 10**27
 SECONDS_PER_YEAR = 31536000
@@ -22,15 +24,28 @@ def get_graph_data(query):
 def data_prepare(data):
   new_data = []
   for item in data:
+    price = get_crypto_prices(item["symbol"])
     borrow_element = {
-        "name": item["name"],
+        "name":  "AAVE_"+item["name"],
         "token": item["underlyingAsset"],
         "symbol": item["symbol"],
         "borrow_apy": calc_APY(int(item["variableBorrowRate"])),
-        "total_borrow_price": original_element["total_burrow_price"],
+        "total_borrow_price": item["totalCurrentVariableDebt"],
         "type": "borrow",
-        "link": "https://app.burrow.finance/tokenDetail/"+original_element["token"]
+        "price": price
     }
+    supply_element = {
+        "name": "AAVE_"+item["name"],
+        "token": item["underlyingAsset"],
+        "symbol": item["symbol"],
+        "supply_apy": calc_APY(int(item["liquidityRate"])),
+        "total_supplied_price": item["totalSupplies"],
+        "type": "borrow",
+        "price": price
+    }
+    new_data.append(borrow_element)
+    new_data.append(supply_element)
+  return new_data
 
 # print(calc_APY(116859139781528081735574962))
 
@@ -47,6 +62,9 @@ query = """
     liquidityRate 
     stableBorrowRate
     variableBorrowRate
+
+    totalSupplies
+    totalCurrentVariableDebt
     
   }
 }
@@ -63,7 +81,12 @@ query = """
 # print(response.json())
 
 
-get_graph_data(query)
+data = get_graph_data(query)
+data_list = data_prepare(data)
+
+
+with open("aave.json", 'w') as json_file:
+    json.dump(data_list, json_file, indent=4)
 
 
 
