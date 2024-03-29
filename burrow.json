@@ -1,0 +1,308 @@
+[
+    {
+        "borrow_apy": "0.00",
+        "price": 0.010305727802,
+        "symbol": "BRRR",
+        "token": "token.burrow.near",
+        "total_borrow_price": "0.000000",
+        "type": "borrow",
+        "link": "https://app.burrow.finance/tokenDetail/token.burrow.near"
+    },
+    {
+        "supply_apy": "0.00",
+        "price": 0.010305727802,
+        "symbol": "BRRR",
+        "token": "token.burrow.near",
+        "total_supplied_price": "1860377.701380",
+        "type": "supply",
+        "link": "https://app.burrow.finance/tokenDetail/token.burrow.near"
+    },
+    {
+        "borrow_apy": "2.35",
+        "price": 3607.77,
+        "symbol": "ETH",
+        "token": "aurora",
+        "total_borrow_price": "243933.960503",
+        "type": "borrow",
+        "link": "https://app.burrow.finance/tokenDetail/aurora"
+    },
+    {
+        "supply_apy": "0.71",
+        "price": 3607.77,
+        "symbol": "ETH",
+        "token": "aurora",
+        "total_supplied_price": "640206.149959",
+        "type": "supply",
+        "link": "https://app.burrow.finance/tokenDetail/aurora"
+    },
+    {
+        "borrow_apy": "9.88",
+        "price": 0.9999,
+        "symbol": "DAI",
+        "token": "6b175474e89094c44da98b954eedeac495271d0f.factory.bridge.near",
+        "total_borrow_price": "1037738.756906",
+        "type": "borrow",
+        "link": "https://app.burrow.finance/tokenDetail/6b175474e89094c44da98b954eedeac495271d0f.factory.bridge.near"
+    },
+    {
+        "supply_apy": "8.03",
+        "price": 0.9999,
+        "symbol": "DAI",
+        "token": "6b175474e89094c44da98b954eedeac495271d0f.factory.bridge.near",
+        "total_supplied_price": "1264459.688032",
+        "type": "supply",
+        "link": "https://app.burrow.finance/tokenDetail/6b175474e89094c44da98b954eedeac495271d0f.factory.bridge.near"
+    },
+    {
+        "borrow_apy": "12.85",
+        "price": 1.0001,
+        "symbol": "USDT.e",
+        "token": "dac17f958d2ee523a2206206994597c13d831ec7.factory.bridge.near",
+        "total_borrow_price": "1525038.889990",
+        "type": "borrow",
+        "link": "https://app.burrow.finance/tokenDetail/dac17f958d2ee523a2206206994597c13d831ec7.factory.bridge.near"
+    },
+    {
+        "supply_apy": "11.07",
+        "price": 1.0001,
+        "symbol": "USDT.e",
+        "token": "dac17f958d2ee523a2206206994597c13d831ec7.factory.bridge.near",
+        "total_supplied_price": "1824095.868813",
+        "type": "supply",
+        "link": "https://app.burrow.finance/tokenDetail/dac17f958d2ee523a2206206994597c13d831ec7.factory.bridge.near"
+    },
+    {
+        "borrow_apy": "18.30",
+        "price": 1.0,
+        "symbol": "USDC.e",
+        "token": "a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.factory.bridge.near",
+        "total_borrow_price": "1380451.794311",
+        "type": "borrow",
+        "link": "https://app.burrow.finance/tokenDetail/a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.factory.bridge.near"
+    },
+    {
+        "supply_apy": "17.18",
+        "price": 1.0,
+        "symbol": "USDC.e",
+        "token": "a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.factory.bridge.near",
+        "total_supplied_price": "1599172.708766",
+        "type": "supply",
+        "link": "https://app.burrow.finance/tokenDetail/a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.factory.bridge.near"
+    },
+    {
+        "borrow_apy": "2.77",
+        "price": 7.3166,
+        "symbol": "wNEAR",
+        "token": "wrap.near",
+        "total_borrow_price": "2874059.580274",
+        "type": "borrow",
+        "link": "https://app.burrow.finance/tokenDetail/wrap.near"
+    },
+    {
+        "supply_apy": "0.40",
+        "price": 7.3166,
+        "symbol": "wNEAR",
+        "token": "wrap.near",
+        "total_supplied_price": "14905222.357939",
+        "type": "supply",
+        "link": "https://app.burrow.finance/tokenDetail/wrap.near"
+    },
+    {
+        "borrow_apy": "0.05",
+        "price": 9.3557,
+        "symbol": "STNEAR",
+        "token": "meta-pool.near",
+        "total_borrow_price": "169584.921171",
+        "type": "borrow",
+        "link": "https://app.burrow.finance/tokenDetail/meta-pool.near"
+    },
+    {
+        "supply_apy": "0.00",
+        "price": 9.3557,
+        "symbol": "STNEAR",
+        "token": "meta-pool.near",
+        "total_supplied_price": "52499460.632822",
+        "type": "supply",
+        "link": "https://app.burrow.finance/tokenDetail/meta-pool.near"
+    },
+    {
+        "borrow_apy": "1.93",
+        "price": 71446.35,
+        "symbol": "WBTC",
+        "token": "2260fac5e5542a773aa44fbcfedf7c193bc2c599.factory.bridge.near",
+        "total_borrow_price": "339317.077862",
+        "type": "borrow",
+        "link": "https://app.burrow.finance/tokenDetail/2260fac5e5542a773aa44fbcfedf7c193bc2c599.factory.bridge.near"
+    },
+    {
+        "supply_apy": "0.47",
+        "price": 71446.35,
+        "symbol": "WBTC",
+        "token": "2260fac5e5542a773aa44fbcfedf7c193bc2c599.factory.bridge.near",
+        "total_supplied_price": "1083152.172347",
+        "type": "supply",
+        "link": "https://app.burrow.finance/tokenDetail/2260fac5e5542a773aa44fbcfedf7c193bc2c599.factory.bridge.near"
+    },
+    {
+        "borrow_apy": "0.00",
+        "price": 0.021476119093,
+        "symbol": "META",
+        "token": "meta-token.near",
+        "total_borrow_price": "0.000000",
+        "type": "borrow",
+        "link": "https://app.burrow.finance/tokenDetail/meta-token.near"
+    },
+    {
+        "supply_apy": "0.00",
+        "price": 0.021476119093,
+        "symbol": "META",
+        "token": "meta-token.near",
+        "total_supplied_price": "67819.580719",
+        "type": "supply",
+        "link": "https://app.burrow.finance/tokenDetail/meta-token.near"
+    },
+    {
+        "borrow_apy": "2.62",
+        "price": 0.39973,
+        "symbol": "AURORA",
+        "token": "aaaaaa20d9e0e2461697782ef11675f668207961.factory.bridge.near",
+        "total_borrow_price": "6490.360844",
+        "type": "borrow",
+        "link": "https://app.burrow.finance/tokenDetail/aaaaaa20d9e0e2461697782ef11675f668207961.factory.bridge.near"
+    },
+    {
+        "supply_apy": "0.13",
+        "price": 0.39973,
+        "symbol": "AURORA",
+        "token": "aaaaaa20d9e0e2461697782ef11675f668207961.factory.bridge.near",
+        "total_supplied_price": "105486.687937",
+        "type": "supply",
+        "link": "https://app.burrow.finance/tokenDetail/aaaaaa20d9e0e2461697782ef11675f668207961.factory.bridge.near"
+    },
+    {
+        "borrow_apy": "0.00",
+        "price": 8.7904,
+        "symbol": "LINEAR",
+        "token": "linear-protocol.near",
+        "total_borrow_price": "25977.614042",
+        "type": "borrow",
+        "link": "https://app.burrow.finance/tokenDetail/linear-protocol.near"
+    },
+    {
+        "supply_apy": "0.00",
+        "price": 8.7904,
+        "symbol": "LINEAR",
+        "token": "linear-protocol.near",
+        "total_supplied_price": "122041633.762520",
+        "type": "supply",
+        "link": "https://app.burrow.finance/tokenDetail/linear-protocol.near"
+    },
+    {
+        "borrow_apy": "15.32",
+        "price": 0.4569,
+        "symbol": "WOO",
+        "token": "4691937a7508860f876c9c0a2a617e7d9e945d4b.factory.bridge.near",
+        "total_borrow_price": "6011.832320",
+        "type": "borrow",
+        "link": "https://app.burrow.finance/tokenDetail/4691937a7508860f876c9c0a2a617e7d9e945d4b.factory.bridge.near"
+    },
+    {
+        "supply_apy": "7.80",
+        "price": 0.4569,
+        "symbol": "WOO",
+        "token": "4691937a7508860f876c9c0a2a617e7d9e945d4b.factory.bridge.near",
+        "total_supplied_price": "9612.384038",
+        "type": "supply",
+        "link": "https://app.burrow.finance/tokenDetail/4691937a7508860f876c9c0a2a617e7d9e945d4b.factory.bridge.near"
+    },
+    {
+        "borrow_apy": "0.00",
+        "price": 8.578,
+        "symbol": "NearX",
+        "token": "v2-nearx.stader-labs.near",
+        "total_borrow_price": "19.099689",
+        "type": "borrow",
+        "link": "https://app.burrow.finance/tokenDetail/v2-nearx.stader-labs.near"
+    },
+    {
+        "supply_apy": "0.00",
+        "price": 8.578,
+        "symbol": "NearX",
+        "token": "v2-nearx.stader-labs.near",
+        "total_supplied_price": "5231.618235",
+        "type": "supply",
+        "link": "https://app.burrow.finance/tokenDetail/v2-nearx.stader-labs.near"
+    },
+    {
+        "borrow_apy": "5.12",
+        "price": 1.0001,
+        "symbol": "USDt",
+        "token": "usdt.tether-token.near",
+        "total_borrow_price": "8798031.196229",
+        "type": "borrow",
+        "link": "https://app.burrow.finance/tokenDetail/usdt.tether-token.near"
+    },
+    {
+        "supply_apy": "2.70",
+        "price": 1.0001,
+        "symbol": "USDt",
+        "token": "usdt.tether-token.near",
+        "total_supplied_price": "12823339.585209",
+        "type": "supply",
+        "link": "https://app.burrow.finance/tokenDetail/usdt.tether-token.near"
+    },
+    {
+        "borrow_apy": "5.04",
+        "price": 1.0,
+        "symbol": "USDC",
+        "token": "17208628f84f5d6ad33f0da3bbbeb27ffcb398eac501a31bd6ad2011e36133a1",
+        "total_borrow_price": "7800196.794000",
+        "type": "borrow",
+        "link": "https://app.burrow.finance/tokenDetail/17208628f84f5d6ad33f0da3bbbeb27ffcb398eac501a31bd6ad2011e36133a1"
+    },
+    {
+        "supply_apy": "2.62",
+        "price": 1.0,
+        "symbol": "USDC",
+        "token": "17208628f84f5d6ad33f0da3bbbeb27ffcb398eac501a31bd6ad2011e36133a1",
+        "total_supplied_price": "11557045.504343",
+        "type": "supply",
+        "link": "https://app.burrow.finance/tokenDetail/17208628f84f5d6ad33f0da3bbbeb27ffcb398eac501a31bd6ad2011e36133a1"
+    },
+    {
+        "borrow_apy": "0.00",
+        "price": 0.9982,
+        "symbol": "FRAX",
+        "token": "853d955acef822db058eb8505911ed77f175b99e.factory.bridge.near",
+        "total_borrow_price": "0.000000",
+        "type": "borrow",
+        "link": "https://app.burrow.finance/tokenDetail/853d955acef822db058eb8505911ed77f175b99e.factory.bridge.near"
+    },
+    {
+        "supply_apy": "0.00",
+        "price": 0.9982,
+        "symbol": "FRAX",
+        "token": "853d955acef822db058eb8505911ed77f175b99e.factory.bridge.near",
+        "total_supplied_price": "578985.681726",
+        "type": "supply",
+        "link": "https://app.burrow.finance/tokenDetail/853d955acef822db058eb8505911ed77f175b99e.factory.bridge.near"
+    },
+    {
+        "borrow_apy": "0.00",
+        "price": 1.0218,
+        "symbol": "sFRAX",
+        "token": "a663b02cf0a4b149d2ad41910cb81e23e1c41c32.factory.bridge.near",
+        "total_borrow_price": "0.000000",
+        "type": "borrow",
+        "link": "https://app.burrow.finance/tokenDetail/a663b02cf0a4b149d2ad41910cb81e23e1c41c32.factory.bridge.near"
+    },
+    {
+        "supply_apy": "0.00",
+        "price": 1.0218,
+        "symbol": "sFRAX",
+        "token": "a663b02cf0a4b149d2ad41910cb81e23e1c41c32.factory.bridge.near",
+        "total_supplied_price": "5.109000",
+        "type": "supply",
+        "link": "https://app.burrow.finance/tokenDetail/a663b02cf0a4b149d2ad41910cb81e23e1c41c32.factory.bridge.near"
+    }
+]
