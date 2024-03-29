@@ -4,6 +4,7 @@ import re
 import ast
 import json
 from flask_cors import CORS
+import imgUrl from urls
 
 app = Flask(__name__)
 CORS(app)
@@ -78,8 +79,8 @@ def get_best_product():
                     "type": return_dict["type"],
                     "link": data_dict[(return_dict["symbol"],return_dict["type"])]["link"],
                     "price": data_dict[(return_dict["symbol"],return_dict["type"])]["price"],
-                    "apy": data_dict[(return_dict["symbol"],return_dict["type"])][return_dict["type"]+"_apy"]
-                    })
+                    "apy": data_dict[(return_dict["symbol"],return_dict["type"])][return_dict["type"]+"_apy"],
+                    "imgUrl": imgUrl[return_dict["symbol"]]})
 
 if __name__ == '__main__':
     app.run(debug=True)
