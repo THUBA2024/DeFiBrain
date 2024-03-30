@@ -6,6 +6,7 @@ import json
 from flask_cors import CORS
 from graph import update_aavm
 from burrow import update_burrow
+from tools.filter import filter_symbol
 
 app = Flask(__name__)
 CORS(app)
@@ -19,11 +20,14 @@ def get_burrow_data(path="storage/burrow.json"):
     with open(path, 'r') as file:
         json_data = json.load(file)
 
+    json_data = filter_symbol(json_data)
+    # print(json_data)
+
     extracted_data = []
     data_dict = {}
     for item in json_data:
 
-        data_dict[(item["symbol"],item["type"])] = item
+        data_dict[(item["symbol"],item["type"],item["name"].split("_")[0])] = item
 
         extracted_item = {
             "protocol": item["name"].split("_")[0],
@@ -47,11 +51,13 @@ def get_aave_data(path="storage/aave.json"):
     with open(path, 'r') as file:
         json_data = json.load(file)
 
+    json_data = filter_symbol(json_data)
+
     extracted_data = []
     data_dict = {}
     for item in json_data:
 
-        data_dict[(item["symbol"],item["type"])] = item
+        data_dict[(item["symbol"],item["type"],item["name"].split("_")[0])] = item
 
         extracted_item = {
             "protocol": item["name"].split("_")[0],
@@ -74,12 +80,17 @@ def get_aave_data(path="storage/aave.json"):
 
 @app.route('/request', methods=['POST'])
 def get_best_product():
-    data_burrow, data_dict = get_burrow_data()
+    data_burrow, data_dict_burrow = get_burrow_data()
+    data_aave, data_dict_aave = get_aave_data()
+
+    # merge
+    data_dict_burrow.update(data_dict_aave)
+    data_dict = data_dict_burrow
 
 
-    ask_data = request.json  # 接收 JSON 数据
-    prompt = read_prompt_from_file('prompt.txt')
-    user_query = prompt + data_burrow + "\n User questions:" + ask_data.get('query')  # 从 JSON 中提取用户的查询内容
+    ask_data = request.json  
+    prompt = read_prompt_from_file('prompt-en.txt')
+    user_query = prompt + data_burrow.replace("]",",") + data_aave + "\n User questions:" + ask_data.get('query')  # 从 JSON 中提取用户的查询内容
     print(user_query)
 
     client = OpenAI(
@@ -98,19 +109,22 @@ def get_best_product():
     # 解析回复，获取 note
     note = completion.choices[0].message.content if completion.choices else None
     return_dict = ast.literal_eval(note)
+    # print(data_dict)
+    selected_data = data_dict[(return_dict["symbol"],return_dict["type"],return_dict["protocol"])]
     print(return_dict)
 
-    print(data_dict[(return_dict["symbol"],return_dict["type"])])
+    print(data_dict[(return_dict["symbol"],return_dict["type"],return_dict["protocol"])])
 
     return jsonify({"symbol": return_dict["symbol"],
                     "reply": return_dict["reply"],
                     "type": return_dict["type"],
-                    "link": data_dict[(return_dict["symbol"],return_dict["type"])]["link"],
-                    "price": data_dict[(return_dict["symbol"],return_dict["type"])]["price"],
-                    "apy": data_dict[(return_dict["symbol"],return_dict["type"])][return_dict["type"]+"_apy"]})
+                    "protocol": return_dict["protocol"],
+                    "link": selected_data["link"] if "link" in selected_data else None,
+                    "price": selected_data["price"],
+                    "apy": selected_data[return_dict["type"]+"_apy"]})
 
 
 if __name__ == '__main__':
-    update_aavm()
-    update_burrow()
-    app.run(debug=True)
+    # update_aavm()
+    # update_burrow()
+    app.run(host='0.0.0.0', port=5000, debug=False)

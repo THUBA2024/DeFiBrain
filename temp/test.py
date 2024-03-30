@@ -6,7 +6,7 @@ url = 'http://127.0.0.1:5000/request'
 
 # 准备测试数据，这里是 JSON 格式的数据
 data = {
-    'query': '我想借usdc'
+    'query': 'i have some USDT please recommend me a leanding product with the highest APY'
 }
 
 # 发送 POST 请求
