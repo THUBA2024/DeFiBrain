@@ -78,7 +78,6 @@ def get_aave_data(path="storage/aave.json"):
     return extracted_json_text, data_dict
     # print(extracted_json_text)
 
-# client, model = start_LLM_model(type="3.5")
 client, model = start_LLM_model()
 
 @app.route('/request', methods=['POST'])
