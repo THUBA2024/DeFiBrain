@@ -1,9 +1,18 @@
 import requests
 from tools.token_price import get_crypto_prices
 import json
+from datetime import datetime, timedelta
+import time
 
 RAY = 10**27
 SECONDS_PER_YEAR = 31536000
+
+def timestamp_x_days_ago(x):
+    now = datetime.now()
+    x_days_ago = now - timedelta(days=x)
+    timestamp = int(time.mktime(x_days_ago.timetuple()))
+    return timestamp
+
 
 def calc_APY(unray):
   apr = unray / RAY
@@ -16,7 +25,7 @@ def get_graph_data(query):
 
   response = requests.post(subgraph_endpoint, json={'query': query})
 
-  data = response.json()["data"]["reserves"]
+  data = response.json()["data"]
 
   print(data)
   return data
@@ -85,7 +94,7 @@ def update_aavm():
     }
   }
       """
-  data = get_graph_data(query)
+  data = get_graph_data(query)["reserves"]
   data_list = data_prepare(data)
 
 
@@ -93,9 +102,30 @@ def update_aavm():
       json.dump(data_list, json_file, indent=4)
 
 
+def query_symbol(symbol):
+  time_stap = timestamp_x_days_ago(30)
+  query = """
+    {{
+      borrows(
+        orderBy: timestamp
+        orderDirection: desc
+        where: {{reserve_: {{symbol: "{symbol}"}}, timestamp_gte: {time_stap}}}
+      ) {{
+        timestamp
+        assetPriceUSD
+        amount
+        borrowRate
+        variableTokenDebt
+      }}
+    }}
+    """.format(symbol=symbol,time_stap=time_stap)
+  data = get_graph_data(query)
+  # print(data)
+  return data
 
 
-
+# print(timestamp_x_days_ago(30))
+# query2("USDT")
 
 
 

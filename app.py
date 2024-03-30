@@ -7,6 +7,7 @@ from flask_cors import CORS
 from graph import update_aavm
 from burrow import update_burrow
 from tools.filter import filter_symbol
+from tools.start_LLM_model import start_LLM_model
 
 app = Flask(__name__)
 CORS(app)
@@ -77,6 +78,7 @@ def get_aave_data(path="storage/aave.json"):
     return extracted_json_text, data_dict
     # print(extracted_json_text)
 
+client, model = start_LLM_model(type="3.5")
 
 @app.route('/request', methods=['POST'])
 def get_best_product():
@@ -92,30 +94,48 @@ def get_best_product():
     prompt = read_prompt_from_file('prompt-en.txt')
     user_query = prompt + data_burrow.replace("]",",") + data_aave + "\n User questions:" + ask_data.get('query')  # 从 JSON 中提取用户的查询内容
     print(user_query)
+    
+    try_times = 0
+    while try_times<=0:
+        try:
+            completion = client.chat.completions.create(
+                model=model,
+                messages=[
+                    {"role": "user", "content": user_query}
+                ]
+            )
 
-    client = OpenAI(
-        base_url="https://api.chatgptid.net/v1",
-        api_key="sk-qlSP8rekTxHK7x2fE7E3130319C94cD0B506Fc40C735AfC0"
-    )
+            # print(completion.choices[0].message.content)
+            note = completion.choices[0].message.content if completion.choices else None
+            match = re.search(r'\{.*?\}', note, re.DOTALL)
+            print(note)
+            print(match.group(0))
 
-    completion = client.chat.completions.create(
-        model="gpt-3.5-turbo",
-        messages=[
-            {"role": "user", "content": user_query}
-        ]
-    )
+            return_dict = ast.literal_eval(match.group(0))
+            if return_dict["symbol"]=="None":
+                return jsonify({"state": 1,
+                                "reply": return_dict["reply"]
+                                })
 
-    # print(completion.choices[0].message.content)
-    # 解析回复，获取 note
-    note = completion.choices[0].message.content if completion.choices else None
-    return_dict = ast.literal_eval(note)
-    # print(data_dict)
-    selected_data = data_dict[(return_dict["symbol"],return_dict["type"],return_dict["protocol"])]
-    print(return_dict)
 
-    print(data_dict[(return_dict["symbol"],return_dict["type"],return_dict["protocol"])])
+            # print(data_dict)
+            selected_data = data_dict[(return_dict["symbol"],return_dict["type"],return_dict["protocol"])]
+            print(return_dict)
 
-    return jsonify({"symbol": return_dict["symbol"],
+            print(data_dict[(return_dict["symbol"],return_dict["type"],return_dict["protocol"])])
+
+        except Exception as e:
+            print(e)
+            print("try again")
+            try_times+=1
+            continue
+        break
+    
+    if try_times == 2:
+        return jsonify({"state": -1})
+
+    return jsonify({"state": 0,
+                    "symbol": return_dict["symbol"],
                     "reply": return_dict["reply"],
                     "type": return_dict["type"],
                     "protocol": return_dict["protocol"],
