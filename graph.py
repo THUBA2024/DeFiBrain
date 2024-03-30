@@ -1,5 +1,5 @@
 import requests
-from token_price import get_crypto_prices
+from tools.token_price import get_crypto_prices
 import json
 
 RAY = 10**27
