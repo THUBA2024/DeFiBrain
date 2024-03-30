@@ -20,11 +20,12 @@ def calc_APY(unray):
   apy = apy * 100
   return apy
 
-def get_graph_data(query):
-  subgraph_endpoint = 'https://api.thegraph.com/subgraphs/name/aave/protocol-v3'
+def get_graph_data(query, link='https://api.thegraph.com/subgraphs/name/aave/protocol-v3'):
+  subgraph_endpoint = link
 
   response = requests.post(subgraph_endpoint, json={'query': query})
 
+  # print(response.json())
   data = response.json()["data"]
 
   print(data)
@@ -125,9 +126,54 @@ def query_symbol(symbol):
   # print(data)
   return data
 
+def query_testtrain_borrows():
+  time_stap = timestamp_x_days_ago(30)
+  query = """
+    query MyQuery {{
+      borrows(
+        orderBy: blockTimestamp
+        orderDirection: desc
+        where: {{blockTimestamp_gt: {time_stap}}}
+      ) {{
+        amount
+        borrowRate
+        user
+        reserve
+        interestRateMode
+        blockTimestamp
+      }}
+    }}
+  """.format(time_stap=time_stap)
+
+  data = get_graph_data(query,link="https://gateway-arbitrum.network.thegraph.com/api/2fd57c65d0e051dea3ac417bdf3f6ad2/subgraphs/id/CvTeB7ja6sz9MdmHd2GjVPRgEDh6U5MFTZ5jkGA5Hcf9")
+  print(data)
+  return data
+
+
+def query_testtrain_supplys():
+  time_stap = timestamp_x_days_ago(30)
+  query = """
+    query MyQuery {{
+      supplies(
+        orderBy: blockTimestamp
+        orderDirection: desc
+        where: {{blockTimestamp_gt: {time_stap}}}
+      ) {{
+        blockTimestamp
+        reserve
+        user
+        amount
+      }}
+    }}
+  """.format(time_stap=time_stap)
+
+  data = get_graph_data(query,link="https://gateway-arbitrum.network.thegraph.com/api/2fd57c65d0e051dea3ac417bdf3f6ad2/subgraphs/id/CvTeB7ja6sz9MdmHd2GjVPRgEDh6U5MFTZ5jkGA5Hcf9")
+  print(data)
+  return data
+
 
 # print(timestamp_x_days_ago(30))
-# query2("USDT")
+# query_testtrain_supplys()
 
 
 
