@@ -4,79 +4,79 @@
         "token": "0x111111111117dc0aa78b770fa6a738034120c302",
         "symbol": "1INCH",
         "borrow_apy": "0.12",
-        "total_borrow_price": 73078.11694,
+        "total_borrow_price": "72990.271206",
         "type": "borrow",
-        "price": 0.6033
+        "price": 0.6026
     },
     {
         "name": "AAVE_1INCH Token",
         "token": "0x111111111117dc0aa78b770fa6a738034120c302",
         "symbol": "1INCH",
         "supply_apy": "0.00",
-        "total_supplied_price": 12300018.292916,
+        "total_supplied_price": "12285232.688441",
         "type": "supply",
-        "price": 0.6033
+        "price": 0.6026
     },
     {
         "name": "AAVE_Uniswap",
         "token": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
         "symbol": "UNI",
         "borrow_apy": "0.23",
-        "total_borrow_price": 290185.566579,
+        "total_borrow_price": "289983.862767",
         "type": "borrow",
-        "price": 12.7219
+        "price": 12.7131
     },
     {
         "name": "AAVE_Uniswap",
         "token": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
         "symbol": "UNI",
         "supply_apy": "0.00",
-        "total_supplied_price": 19959412.96958,
+        "total_supplied_price": "19945539.468827",
         "type": "supply",
-        "price": 12.7219
+        "price": 12.7131
     },
     {
         "name": "AAVE_Wrapped BTC",
         "token": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
         "symbol": "WBTC",
         "borrow_apy": "0.90",
-        "total_borrow_price": 194837324.357311,
+        "total_borrow_price": "194899971.701256",
         "type": "borrow",
-        "price": 69983.4292
+        "price": 70005.9314
     },
     {
         "name": "AAVE_Wrapped BTC",
         "token": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
         "symbol": "WBTC",
         "supply_apy": "0.07",
-        "total_supplied_price": 1938695435.648253,
+        "total_supplied_price": "1939599013.11092",
         "type": "supply",
-        "price": 69983.4292
+        "price": 70005.9314
     },
     {
         "name": "AAVE_Frax Share",
         "token": "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
         "symbol": "FXS",
         "borrow_apy": "0.15",
-        "total_borrow_price": 40451.814965,
+        "total_borrow_price": "40495.104165",
         "type": "borrow",
-        "price": 7.7081
+        "price": 7.7164
     },
     {
         "name": "AAVE_Frax Share",
         "token": "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
         "symbol": "FXS",
         "supply_apy": "0.00",
-        "total_supplied_price": 5441679.007926,
+        "total_supplied_price": "5447502.379012",
         "type": "supply",
-        "price": 7.7081
+        "price": 7.7164
     },
     {
         "name": "AAVE_Gho Token",
         "token": "0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f",
         "symbol": "GHO",
         "borrow_apy": "8.24",
-        "total_borrow_price": 41852852.656029,
+        "total_borrow_price": "41852852.656029",
         "type": "borrow",
         "price": 0.996
     },
@@ -85,7 +85,7 @@
         "token": "0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f",
         "symbol": "GHO",
         "supply_apy": "0.00",
-        "total_supplied_price": 0.0,
+        "total_supplied_price": "0.0",
         "type": "supply",
         "price": 0.996
     },
@@ -94,133 +94,133 @@
         "token": "0x514910771af9ca656af840dff83e8264ecf986ca",
         "symbol": "LINK",
         "borrow_apy": "0.18",
-        "total_borrow_price": 2035673.146496,
+        "total_borrow_price": "2036570.140127",
         "type": "borrow",
-        "price": 18.9
+        "price": 18.9083
     },
     {
         "name": "AAVE_ChainLink Token",
         "token": "0x514910771af9ca656af840dff83e8264ecf986ca",
         "symbol": "LINK",
         "supply_apy": "0.00",
-        "total_supplied_price": 178523455.147445,
+        "total_supplied_price": "178602119.250559",
         "type": "supply",
-        "price": 18.9
+        "price": 18.9083
     },
     {
         "name": "AAVE_Lido DAO Token",
         "token": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
         "symbol": "LDO",
         "borrow_apy": "0.05",
-        "total_borrow_price": 46810.763137,
+        "total_borrow_price": "46728.014465",
         "type": "borrow",
-        "price": 2.8417
+        "price": 2.8367
     },
     {
         "name": "AAVE_Lido DAO Token",
         "token": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
         "symbol": "LDO",
         "supply_apy": "0.00",
-        "total_supplied_price": 15483261.836259,
+        "total_supplied_price": "15455891.649242",
         "type": "supply",
-        "price": 2.8417
+        "price": 2.8367
     },
     {
         "name": "AAVE_LUSD Stablecoin",
         "token": "0x5f98805a4e8be255a32880fdec7f6728c6568ba0",
         "symbol": "LUSD",
         "borrow_apy": "10.01",
-        "total_borrow_price": 4387849.83146,
+        "total_borrow_price": "4389708.750782",
         "type": "borrow",
-        "price": 0.9959
+        "price": 0.9963
     },
     {
         "name": "AAVE_LUSD Stablecoin",
         "token": "0x5f98805a4e8be255a32880fdec7f6728c6568ba0",
         "symbol": "LUSD",
         "supply_apy": "6.36",
-        "total_supplied_price": 5170249.790081,
+        "total_supplied_price": "5172440.174347",
         "type": "supply",
-        "price": 0.9959
+        "price": 0.9963
     },
     {
         "name": "AAVE_Dai Stablecoin",
         "token": "0x6b175474e89094c44da98b954eedeac495271d0f",
         "symbol": "DAI",
-        "borrow_apy": "20.51",
-        "total_borrow_price": 137153198.530199,
+        "borrow_apy": "20.20",
+        "total_borrow_price": "137113693.984342",
         "type": "borrow",
-        "price": 1.0
+        "price": 1.0001
     },
     {
         "name": "AAVE_Dai Stablecoin",
         "token": "0x6b175474e89094c44da98b954eedeac495271d0f",
         "symbol": "DAI",
-        "supply_apy": "13.69",
-        "total_supplied_price": 141598389.510485,
+        "supply_apy": "13.48",
+        "total_supplied_price": "141604413.271587",
         "type": "supply",
-        "price": 1.0
+        "price": 1.0001
     },
     {
         "name": "AAVE_PayPal USD",
         "token": "0x6c3ea9036406852006290770bedfcaba0e23a0e8",
         "symbol": "PYUSD",
         "borrow_apy": "12.47",
-        "total_borrow_price": 16340298.171209,
+        "total_borrow_price": "16339989.126969",
         "type": "borrow",
-        "price": 0.9985
+        "price": 0.9984
     },
     {
         "name": "AAVE_PayPal USD",
         "token": "0x6c3ea9036406852006290770bedfcaba0e23a0e8",
         "symbol": "PYUSD",
         "supply_apy": "7.96",
-        "total_supplied_price": 19961847.929423,
+        "total_supplied_price": "19961470.390773",
         "type": "supply",
-        "price": 0.9985
+        "price": 0.9984
     },
     {
         "name": "AAVE_Wrapped liquid staked Ether 2.0",
         "token": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
         "symbol": "wstETH",
         "borrow_apy": "0.29",
-        "total_borrow_price": 17076173.838822,
+        "total_borrow_price": "17068630.921234",
         "type": "borrow",
-        "price": 4070.5085
+        "price": 4068.7104
     },
     {
         "name": "AAVE_Wrapped liquid staked Ether 2.0",
         "token": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
         "symbol": "wstETH",
         "supply_apy": "0.00",
-        "total_supplied_price": 4134593879.816046,
+        "total_supplied_price": "4132543760.650421",
         "type": "supply",
-        "price": 4070.5085
+        "price": 4068.7104
     },
     {
         "name": "AAVE_Aave Token",
         "token": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
         "symbol": "AAVE",
         "borrow_apy": "0.00",
-        "total_borrow_price": 0.0,
+        "total_borrow_price": "0.0",
         "type": "borrow",
-        "price": 127.97
+        "price": 128.3629
     },
     {
         "name": "AAVE_Aave Token",
         "token": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
         "symbol": "AAVE",
         "supply_apy": "0.00",
-        "total_supplied_price": 146299818.38525,
+        "total_supplied_price": "146748971.317843",
         "type": "supply",
-        "price": 127.97
+        "price": 128.3629
     },
     {
         "name": "AAVE_Savings Dai",
         "token": "0x83f20f44975d03b1b09e64809b757c47f942beea",
         "symbol": "sDAI",
         "borrow_apy": "0.00",
-        "total_borrow_price": 0.0,
+        "total_borrow_price": "0.0",
         "type": "borrow",
         "price": 1.0671
     },
@@ -229,7 +229,7 @@
         "token": "0x83f20f44975d03b1b09e64809b757c47f942beea",
         "symbol": "sDAI",
         "supply_apy": "0.00",
-        "total_supplied_price": 39576088.732889,
+        "total_supplied_price": "39575864.552407",
         "type": "supply",
         "price": 1.0671
     },
@@ -237,8 +237,8 @@
         "name": "AAVE_Frax",
         "token": "0x853d955acef822db058eb8505911ed77f175b99e",
         "symbol": "FRAX",
-        "borrow_apy": "13.55",
-        "total_borrow_price": 588842.180271,
+        "borrow_apy": "24.61",
+        "total_borrow_price": "597345.114392",
         "type": "borrow",
         "price": 0.9979
     },
@@ -246,8 +246,8 @@
         "name": "AAVE_Frax",
         "token": "0x853d955acef822db058eb8505911ed77f175b99e",
         "symbol": "FRAX",
-        "supply_apy": "9.68",
-        "total_supplied_price": 617096.87486,
+        "supply_apy": "17.60",
+        "total_supplied_price": "617123.118478",
         "type": "supply",
         "price": 0.9979
     },
@@ -256,251 +256,251 @@
         "token": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2",
         "symbol": "MKR",
         "borrow_apy": "0.11",
-        "total_borrow_price": 352507.274946,
+        "total_borrow_price": "354781.877906",
         "type": "borrow",
-        "price": 3717.6364
+        "price": 3741.6249
     },
     {
         "name": "AAVE_Maker",
         "token": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2",
         "symbol": "MKR",
         "supply_apy": "0.00",
-        "total_supplied_price": 51001282.378793,
+        "total_supplied_price": "51330375.353911",
         "type": "supply",
-        "price": 3717.6364
+        "price": 3741.6249
     },
     {
         "name": "AAVE_USD Coin",
         "token": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
         "symbol": "USDC",
-        "borrow_apy": "17.19",
-        "total_borrow_price": 1040174368.719301,
+        "borrow_apy": "16.08",
+        "total_borrow_price": "1040351047.770047",
         "type": "borrow",
-        "price": 0.9999
+        "price": 1.0
     },
     {
         "name": "AAVE_USD Coin",
         "token": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
         "symbol": "USDC",
-        "supply_apy": "13.98",
-        "total_supplied_price": 1100744629.462268,
+        "supply_apy": "13.06",
+        "total_supplied_price": "1102901118.735519",
         "type": "supply",
-        "price": 0.9999
+        "price": 1.0
     },
     {
         "name": "AAVE_Rocket Pool ETH",
         "token": "0xae78736cd615f374d3085123a210448e74fc6393",
         "symbol": "rETH",
         "borrow_apy": "0.27",
-        "total_borrow_price": 2803043.240547,
+        "total_borrow_price": "2801949.590729",
         "type": "borrow",
-        "price": 3866.6602
+        "price": 3865.1515
     },
     {
         "name": "AAVE_Rocket Pool ETH",
         "token": "0xae78736cd615f374d3085123a210448e74fc6393",
         "symbol": "rETH",
         "supply_apy": "0.00",
-        "total_supplied_price": 160988549.822289,
+        "total_supplied_price": "160913353.26363",
         "type": "supply",
-        "price": 3866.6602
+        "price": 3865.1515
     },
     {
         "name": "AAVE_StargateToken",
         "token": "0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6",
         "symbol": "STG",
         "borrow_apy": "0.34",
-        "total_borrow_price": 25470.434302,
+        "total_borrow_price": "25531.500029",
         "type": "borrow",
-        "price": 0.7705
+        "price": 0.7723
     },
     {
         "name": "AAVE_StargateToken",
         "token": "0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6",
         "symbol": "STG",
         "supply_apy": "0.01",
-        "total_supplied_price": 1171782.749759,
+        "total_supplied_price": "1174592.115492",
         "type": "supply",
-        "price": 0.7705
+        "price": 0.7723
     },
     {
         "name": "AAVE_Balancer",
         "token": "0xba100000625a3754423978a60c9317c58a424e3d",
         "symbol": "BAL",
         "borrow_apy": "10.34",
-        "total_borrow_price": 655026.232033,
+        "total_borrow_price": "654627.124759",
         "type": "borrow",
-        "price": 5.0936
+        "price": 5.0905
     },
     {
         "name": "AAVE_Balancer",
         "token": "0xba100000625a3754423978a60c9317c58a424e3d",
         "symbol": "BAL",
         "supply_apy": "1.40",
-        "total_supplied_price": 3668221.320956,
+        "total_supplied_price": "3665986.274874",
         "type": "supply",
-        "price": 5.0936
+        "price": 5.0905
     },
     {
         "name": "AAVE_Coinbase Wrapped Staked ETH",
         "token": "0xbe9895146f7af43049ca1c1ae358b0541ea49704",
         "symbol": "cbETH",
         "borrow_apy": "0.56",
-        "total_borrow_price": 1165270.205664,
+        "total_borrow_price": "1165460.402009",
         "type": "borrow",
-        "price": 3730.4119
+        "price": 3731.0208
     },
     {
         "name": "AAVE_Coinbase Wrapped Staked ETH",
         "token": "0xbe9895146f7af43049ca1c1ae358b0541ea49704",
         "symbol": "cbETH",
         "supply_apy": "0.02",
-        "total_supplied_price": 32161574.002297,
+        "total_supplied_price": "32166823.440388",
         "type": "supply",
-        "price": 3730.4119
+        "price": 3731.0208
     },
     {
         "name": "AAVE_Synthetix Network Token",
         "token": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
         "symbol": "SNX",
         "borrow_apy": "3.16",
-        "total_borrow_price": 74622.996183,
+        "total_borrow_price": "74684.238674",
         "type": "borrow",
-        "price": 4.7482
+        "price": 4.7521
     },
     {
         "name": "AAVE_Synthetix Network Token",
         "token": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
         "symbol": "SNX",
         "supply_apy": "0.01",
-        "total_supplied_price": 12623643.138846,
+        "total_supplied_price": "12634003.260909",
         "type": "supply",
-        "price": 4.7482
+        "price": 4.7521
     },
     {
         "name": "AAVE_Wrapped Ether",
         "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
         "symbol": "WETH",
         "borrow_apy": "2.59",
-        "total_borrow_price": 1991722685.557006,
+        "total_borrow_price": "1990494150.873845",
         "type": "borrow",
-        "price": 3511.569
+        "price": 3509.0975
     },
     {
         "name": "AAVE_Wrapped Ether",
         "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
         "symbol": "WETH",
-        "supply_apy": "1.80",
-        "total_supplied_price": 2389283153.117464,
+        "supply_apy": "1.81",
+        "total_supplied_price": "2387601525.702101",
         "type": "supply",
-        "price": 3511.569
+        "price": 3509.0975
     },
     {
         "name": "AAVE_Ethereum Name Service",
         "token": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
         "symbol": "ENS",
         "borrow_apy": "0.31",
-        "total_borrow_price": 95187.760267,
+        "total_borrow_price": "95380.592529",
         "type": "borrow",
-        "price": 22.2047
+        "price": 22.2497
     },
     {
         "name": "AAVE_Ethereum Name Service",
         "token": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
         "symbol": "ENS",
         "supply_apy": "0.00",
-        "total_supplied_price": 6165694.354788,
+        "total_supplied_price": "6178184.876526",
         "type": "supply",
-        "price": 22.2047
+        "price": 22.2497
     },
     {
         "name": "AAVE_Rocket Pool Protocol",
         "token": "0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
         "symbol": "RPL",
         "borrow_apy": "5.53",
-        "total_borrow_price": 6521670.91054,
+        "total_borrow_price": "6536219.40183",
         "type": "borrow",
-        "price": 30.1396
+        "price": 30.2068
     },
     {
         "name": "AAVE_Rocket Pool Protocol",
         "token": "0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
         "symbol": "RPL",
         "supply_apy": "2.21",
-        "total_supplied_price": 12743654.971782,
+        "total_supplied_price": "12772083.415337",
         "type": "supply",
-        "price": 30.1396
+        "price": 30.2068
     },
     {
         "name": "AAVE_Curve DAO Token",
         "token": "0xd533a949740bb3306d119cc777fa900ba034cd52",
         "symbol": "CRV",
         "borrow_apy": "7.53",
-        "total_borrow_price": 1293245.559952,
+        "total_borrow_price": "1290564.84502",
         "type": "borrow",
-        "price": 0.707
+        "price": 0.7056
     },
     {
         "name": "AAVE_Curve DAO Token",
         "token": "0xd533a949740bb3306d119cc777fa900ba034cd52",
         "symbol": "CRV",
         "supply_apy": "1.01",
-        "total_supplied_price": 5996593.560032,
+        "total_supplied_price": "5984163.470652",
         "type": "supply",
-        "price": 0.707
+        "price": 0.7056
     },
     {
         "name": "AAVE_Tether USD",
         "token": "0xdac17f958d2ee523a2206206994597c13d831ec7",
         "symbol": "USDT",
-        "borrow_apy": "18.83",
-        "total_borrow_price": 875688167.295457,
+        "borrow_apy": "18.07",
+        "total_borrow_price": "874991565.718626",
         "type": "borrow",
-        "price": 1.0004
+        "price": 1.0006
     },
     {
         "name": "AAVE_Tether USD",
         "token": "0xdac17f958d2ee523a2206206994597c13d831ec7",
         "symbol": "USDT",
-        "supply_apy": "15.27",
-        "total_supplied_price": 931519695.842951,
+        "supply_apy": "14.64",
+        "total_supplied_price": "931637740.320756",
         "type": "supply",
-        "price": 1.0004
+        "price": 1.0006
     },
     {
         "name": "AAVE_Kyber Network Crystal v2",
         "token": "0xdefa4e8a7bcba345f687a2f1456f5edd9ce97202",
         "symbol": "KNC",
         "borrow_apy": "1.95",
-        "total_borrow_price": 9061.647207,
+        "total_borrow_price": "9073.297651",
         "type": "borrow",
-        "price": 0.9038
+        "price": 0.905
     },
     {
         "name": "AAVE_Kyber Network Crystal v2",
         "token": "0xdefa4e8a7bcba345f687a2f1456f5edd9ce97202",
         "symbol": "KNC",
         "supply_apy": "0.15",
-        "total_supplied_price": 89037.828666,
+        "total_supplied_price": "89152.303461",
         "type": "supply",
-        "price": 0.9038
+        "price": 0.905
     },
     {
         "name": "AAVE_Curve.Fi USD Stablecoin",
         "token": "0xf939e0a03fb07f59a73314e73794be0e57ac1b4e",
         "symbol": "crvUSD",
         "borrow_apy": "32.66",
-        "total_borrow_price": 274425.248367,
+        "total_borrow_price": "274449.825862",
         "type": "borrow",
-        "price": 0.9943
+        "price": 0.9944
     },
     {
         "name": "AAVE_Curve.Fi USD Stablecoin",
         "token": "0xf939e0a03fb07f59a73314e73794be0e57ac1b4e",
         "symbol": "crvUSD",
         "supply_apy": "24.39",
-        "total_supplied_price": 308694.541992,
+        "total_supplied_price": "308722.188641",
         "type": "supply",
-        "price": 0.9943
+        "price": 0.9944
     }
 ]

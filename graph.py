@@ -24,24 +24,30 @@ def get_graph_data(query):
 def data_prepare(data):
   new_data = []
   for item in data:
+    if item["symbol"] == "PYUSD" or item["symbol"] == "USDC" or item["symbol"] == "USDT":
+      item["totalCurrentVariableDebt"]+="000000000000"
+      item["totalSupplies"]+="000000000000"
+    elif item["symbol"] == "WBTC":
+      item["totalCurrentVariableDebt"]+="0000000000"
+      item["totalSupplies"]+="0000000000"
     price = get_crypto_prices(item["symbol"])
     borrow_element = {
         "name":  "AAVE_"+item["name"],
         "token": item["underlyingAsset"],
         "symbol": item["symbol"],
-        "borrow_apy": calc_APY(int(item["variableBorrowRate"])),
-        "total_borrow_price": item["totalCurrentVariableDebt"],
+        "borrow_apy": format(calc_APY(int(item["variableBorrowRate"])), '.2f'),
+        "total_borrow_price": str(round(float(item["totalCurrentVariableDebt"])/10**18 * price, 6)),
         "type": "borrow",
-        "price": price
+        "price": round(price, 4)
     }
     supply_element = {
         "name": "AAVE_"+item["name"],
         "token": item["underlyingAsset"],
         "symbol": item["symbol"],
-        "supply_apy": calc_APY(int(item["liquidityRate"])),
-        "total_supplied_price": item["totalSupplies"],
-        "type": "borrow",
-        "price": price
+        "supply_apy": format(calc_APY(int(item["liquidityRate"])), '.2f'),
+        "total_supplied_price": str(round(float(item["totalSupplies"])/10**18 * price, 6)),
+        "type": "supply",
+        "price": round(price, 4)
     }
     new_data.append(borrow_element)
     new_data.append(supply_element)
@@ -51,45 +57,40 @@ def data_prepare(data):
 
 # Define the GraphQL query
 # liquidityRate means supply rate
-query = """
-{
-  reserves {
-    id
-    name
-    symbol
-    underlyingAsset
-    
-    liquidityRate 
-    stableBorrowRate
-    variableBorrowRate
 
-    totalSupplies
-    totalCurrentVariableDebt
-    
+# data = get_graph_data(query)
+# data_list = data_prepare(data)
+
+
+# with open("aave.json", 'w') as json_file:
+#     json.dump(data_list, json_file, indent=4)
+
+
+def update_aavm():
+  query = """
+  {
+    reserves {
+      id
+      name
+      symbol
+      underlyingAsset
+      
+      liquidityRate 
+      stableBorrowRate
+      variableBorrowRate
+
+      totalSupplies
+      totalCurrentVariableDebt
+      
+    }
   }
-}
-    """
-
-# # Define the subgraph's endpoint
-# subgraph_endpoint = 'https://api.thegraph.com/subgraphs/name/aave/protocol-v3'
-
-# # Make the GraphQL query
-# response = requests.post(subgraph_endpoint, json={'query': query})
-
-# # Print the response
-# data = response.json()
-# print(response.json())
+      """
+  data = get_graph_data(query)
+  data_list = data_prepare(data)
 
 
-data = get_graph_data(query)
-data_list = data_prepare(data)
-
-
-with open("aave.json", 'w') as json_file:
-    json.dump(data_list, json_file, indent=4)
-
-
-
+  with open("storage/aave.json", 'w') as json_file:
+      json.dump(data_list, json_file, indent=4)
 
 
 
