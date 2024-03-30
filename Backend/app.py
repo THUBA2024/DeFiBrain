@@ -95,53 +95,61 @@ def get_best_product():
     user_query = prompt + data_burrow.replace("]",",") + data_aave + "\n User questions:" + ask_data.get('query')  # 从 JSON 中提取用户的查询内容
     print(user_query)
     
-    try_times = 0
-    while try_times<=0:
-        try:
-            completion = client.chat.completions.create(
-                model=model,
-                messages=[
-                    {"role": "user", "content": user_query}
-                ]
-            )
+    # try_times = 0
+    # while try_times<=0:
+    #     try:
+    #         completion = client.chat.completions.create(
+    #             model=model,
+    #             messages=[
+    #                 {"role": "user", "content": user_query}
+    #             ]
+    #         )
 
-            # print(completion.choices[0].message.content)
-            note = completion.choices[0].message.content if completion.choices else None
-            match = re.search(r'\{.*?\}', note, re.DOTALL)
-            print(note)
-            print(match.group(0))
+    #         # print(completion.choices[0].message.content)
+    #         note = completion.choices[0].message.content if completion.choices else None
+    #         match = re.search(r'\{.*?\}', note, re.DOTALL)
+    #         print(note)
+    #         print(match.group(0))
 
-            return_dict = ast.literal_eval(match.group(0))
-            if return_dict["symbol"]=="None":
-                return jsonify({"state": 1,
-                                "reply": return_dict["reply"]
-                                })
+    #         return_dict = ast.literal_eval(match.group(0))
+    #         if return_dict["symbol"]=="None":
+    #             return jsonify({"state": 1,
+    #                             "reply": return_dict["reply"]
+    #                             })
 
 
-            # print(data_dict)
-            selected_data = data_dict[(return_dict["symbol"],return_dict["type"],return_dict["protocol"])]
-            print(return_dict)
+    #         # print(data_dict)
+    #         selected_data = data_dict[(return_dict["symbol"],return_dict["type"],return_dict["protocol"])]
+    #         print(return_dict)
 
-            print(data_dict[(return_dict["symbol"],return_dict["type"],return_dict["protocol"])])
+    #         print(data_dict[(return_dict["symbol"],return_dict["type"],return_dict["protocol"])])
 
-        except Exception as e:
-            print(e)
-            print("try again")
-            try_times+=1
-            continue
-        break
+    #     except Exception as e:
+    #         print(e)
+    #         print("try again")
+    #         try_times+=1
+    #         continue
+    #     break
     
-    if try_times == 2:
-        return jsonify({"state": -1})
+    # if try_times == 2:
+    #     return jsonify({"state": -1})
 
+    # return jsonify({"state": 0,
+    #                 "symbol": return_dict["symbol"],
+    #                 "reply": return_dict["reply"],
+    #                 "type": return_dict["type"],
+    #                 "protocol": return_dict["protocol"],
+    #                 "link": selected_data["link"] if "link" in selected_data else None,
+    #                 "price": selected_data["price"],
+    #                 "apy": selected_data[return_dict["type"]+"_apy"]})
     return jsonify({"state": 0,
-                    "symbol": return_dict["symbol"],
-                    "reply": return_dict["reply"],
-                    "type": return_dict["type"],
-                    "protocol": return_dict["protocol"],
-                    "link": selected_data["link"] if "link" in selected_data else None,
-                    "price": selected_data["price"],
-                    "apy": selected_data[return_dict["type"]+"_apy"]})
+                    "symbol": "USDT",
+                    "reply": "test",
+                    "type": "borrow",
+                    "protocol": "AAVE",
+                    "link": None,
+                    "price": 1,
+                    "apy": "0.01"})
 
 
 if __name__ == '__main__':
