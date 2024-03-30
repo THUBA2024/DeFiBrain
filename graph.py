@@ -47,7 +47,8 @@ def data_prepare(data):
         "borrow_apy": format(calc_APY(int(item["variableBorrowRate"])), '.2f'),
         "total_borrow_price": str(round(float(item["totalCurrentVariableDebt"])/10**18 * price, 6)),
         "type": "borrow",
-        "price": round(price, 4)
+        "price": round(price, 4),
+        "link": "https://app.aave.com/reserve-overview/?underlyingAsset="+item["underlyingAsset"]+"&marketName=proto_mainnet_v3"
     }
     supply_element = {
         "name": "AAVE_"+item["name"],
@@ -56,7 +57,8 @@ def data_prepare(data):
         "supply_apy": format(calc_APY(int(item["liquidityRate"])), '.2f'),
         "total_supplied_price": str(round(float(item["totalSupplies"])/10**18 * price, 6)),
         "type": "supply",
-        "price": round(price, 4)
+        "price": round(price, 4),
+        "link": "https://app.aave.com/reserve-overview/?underlyingAsset="+item["underlyingAsset"]+"&marketName=proto_mainnet_v3"
     }
     new_data.append(borrow_element)
     new_data.append(supply_element)
