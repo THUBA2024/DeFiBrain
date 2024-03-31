@@ -91,7 +91,7 @@ def get_best_product():
 
 
     ask_data = request.json  
-    prompt = read_prompt_from_file('prompt-en.txt')
+    prompt = read_prompt_from_file('tools/prompt/prompt-en.txt')
     user_query = prompt + data_burrow.replace("]",",") + data_aave + "\n User questions:" + ask_data.get('query')  # 从 JSON 中提取用户的查询内容
     print(user_query)
     

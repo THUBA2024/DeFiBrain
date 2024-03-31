@@ -4,9 +4,9 @@
         "token": "0x111111111117dc0aa78b770fa6a738034120c302",
         "symbol": "1INCH",
         "borrow_apy": "0.12",
-        "total_borrow_price": "71149.488337",
+        "total_borrow_price": "70740.142146",
         "type": "borrow",
-        "price": 0.6051,
+        "price": 0.6016,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0x111111111117dc0aa78b770fa6a738034120c302&marketName=proto_mainnet_v3"
     },
     {
@@ -14,9 +14,9 @@
         "token": "0x111111111117dc0aa78b770fa6a738034120c302",
         "symbol": "1INCH",
         "supply_apy": "0.00",
-        "total_supplied_price": "12336400.178274",
+        "total_supplied_price": "12265424.848088",
         "type": "supply",
-        "price": 0.6051,
+        "price": 0.6016,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0x111111111117dc0aa78b770fa6a738034120c302&marketName=proto_mainnet_v3"
     },
     {
@@ -24,9 +24,9 @@
         "token": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
         "symbol": "UNI",
         "borrow_apy": "0.23",
-        "total_borrow_price": "295375.764612",
+        "total_borrow_price": "296144.330658",
         "type": "borrow",
-        "price": 12.7274,
+        "price": 12.7605,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0x1f9840a85d5af5bf1d1762f925bdaddc4201f984&marketName=proto_mainnet_v3"
     },
     {
@@ -34,9 +34,9 @@
         "token": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
         "symbol": "UNI",
         "supply_apy": "0.00",
-        "total_supplied_price": "19993354.92865",
+        "total_supplied_price": "20045377.523553",
         "type": "supply",
-        "price": 12.7274,
+        "price": 12.7605,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0x1f9840a85d5af5bf1d1762f925bdaddc4201f984&marketName=proto_mainnet_v3"
     },
     {
@@ -44,9 +44,9 @@
         "token": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
         "symbol": "WBTC",
         "borrow_apy": "0.89",
-        "total_borrow_price": "195657009.348474",
+        "total_borrow_price": "195698370.414209",
         "type": "borrow",
-        "price": 69941.5559,
+        "price": 69956.3413,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0x2260fac5e5542a773aa44fbcfedf7c193bc2c599&marketName=proto_mainnet_v3"
     },
     {
@@ -54,9 +54,9 @@
         "token": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
         "symbol": "WBTC",
         "supply_apy": "0.07",
-        "total_supplied_price": "1960815160.308933",
+        "total_supplied_price": "1961229668.355488",
         "type": "supply",
-        "price": 69941.5559,
+        "price": 69956.3413,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0x2260fac5e5542a773aa44fbcfedf7c193bc2c599&marketName=proto_mainnet_v3"
     },
     {
@@ -64,9 +64,9 @@
         "token": "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
         "symbol": "FXS",
         "borrow_apy": "0.15",
-        "total_borrow_price": "39980.805338",
+        "total_borrow_price": "39833.202915",
         "type": "borrow",
-        "price": 7.6184,
+        "price": 7.5903,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0&marketName=proto_mainnet_v3"
     },
     {
@@ -74,9 +74,9 @@
         "token": "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
         "symbol": "FXS",
         "supply_apy": "0.00",
-        "total_supplied_price": "5378317.618461",
+        "total_supplied_price": "5358461.772543",
         "type": "supply",
-        "price": 7.6184,
+        "price": 7.5903,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0&marketName=proto_mainnet_v3"
     },
     {
@@ -104,9 +104,9 @@
         "token": "0x514910771af9ca656af840dff83e8264ecf986ca",
         "symbol": "LINK",
         "borrow_apy": "0.18",
-        "total_borrow_price": "2050923.787068",
+        "total_borrow_price": "2048348.119491",
         "type": "borrow",
-        "price": 18.9946,
+        "price": 18.9708,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0x514910771af9ca656af840dff83e8264ecf986ca&marketName=proto_mainnet_v3"
     },
     {
@@ -114,9 +114,9 @@
         "token": "0x514910771af9ca656af840dff83e8264ecf986ca",
         "symbol": "LINK",
         "supply_apy": "0.00",
-        "total_supplied_price": "180025438.719007",
+        "total_supplied_price": "179799352.46046",
         "type": "supply",
-        "price": 18.9946,
+        "price": 18.9708,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0x514910771af9ca656af840dff83e8264ecf986ca&marketName=proto_mainnet_v3"
     },
     {
@@ -124,9 +124,9 @@
         "token": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
         "symbol": "LDO",
         "borrow_apy": "0.46",
-        "total_borrow_price": "454466.347995",
+        "total_borrow_price": "450440.849039",
         "type": "borrow",
-        "price": 2.8212,
+        "price": 2.7962,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0x5a98fcbea516cf06857215779fd812ca3bef1b32&marketName=proto_mainnet_v3"
     },
     {
@@ -134,9 +134,9 @@
         "token": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
         "symbol": "LDO",
         "supply_apy": "0.01",
-        "total_supplied_price": "15371345.624285",
+        "total_supplied_price": "15235191.790164",
         "type": "supply",
-        "price": 2.8212,
+        "price": 2.7962,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0x5a98fcbea516cf06857215779fd812ca3bef1b32&marketName=proto_mainnet_v3"
     },
     {
@@ -144,9 +144,9 @@
         "token": "0x5f98805a4e8be255a32880fdec7f6728c6568ba0",
         "symbol": "LUSD",
         "borrow_apy": "6.07",
-        "total_borrow_price": "4193258.75907",
+        "total_borrow_price": "4192851.980616",
         "type": "borrow",
-        "price": 0.997,
+        "price": 0.9969,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0x5f98805a4e8be255a32880fdec7f6728c6568ba0&marketName=proto_mainnet_v3"
     },
     {
@@ -154,9 +154,9 @@
         "token": "0x5f98805a4e8be255a32880fdec7f6728c6568ba0",
         "symbol": "LUSD",
         "supply_apy": "3.77",
-        "total_supplied_price": "5076441.01723",
+        "total_supplied_price": "5075948.563283",
         "type": "supply",
-        "price": 0.997,
+        "price": 0.9969,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0x5f98805a4e8be255a32880fdec7f6728c6568ba0&marketName=proto_mainnet_v3"
     },
     {
@@ -164,9 +164,9 @@
         "token": "0x6b175474e89094c44da98b954eedeac495271d0f",
         "symbol": "DAI",
         "borrow_apy": "22.69",
-        "total_borrow_price": "137469652.368988",
+        "total_borrow_price": "137480445.326454",
         "type": "borrow",
-        "price": 1.0002,
+        "price": 1.0003,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0x6b175474e89094c44da98b954eedeac495271d0f&marketName=proto_mainnet_v3"
     },
     {
@@ -174,9 +174,9 @@
         "token": "0x6b175474e89094c44da98b954eedeac495271d0f",
         "symbol": "DAI",
         "supply_apy": "15.14",
-        "total_supplied_price": "141483649.358439",
+        "total_supplied_price": "141494757.461088",
         "type": "supply",
-        "price": 1.0002,
+        "price": 1.0003,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0x6b175474e89094c44da98b954eedeac495271d0f&marketName=proto_mainnet_v3"
     },
     {
@@ -184,9 +184,9 @@
         "token": "0x6c3ea9036406852006290770bedfcaba0e23a0e8",
         "symbol": "PYUSD",
         "borrow_apy": "13.90",
-        "total_borrow_price": "16432325.41694",
+        "total_borrow_price": "16415700.902552",
         "type": "borrow",
-        "price": 0.9999,
+        "price": 0.9989,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0x6c3ea9036406852006290770bedfcaba0e23a0e8&marketName=proto_mainnet_v3"
     },
     {
@@ -194,9 +194,9 @@
         "token": "0x6c3ea9036406852006290770bedfcaba0e23a0e8",
         "symbol": "PYUSD",
         "supply_apy": "8.89",
-        "total_supplied_price": "19991467.075181",
+        "total_supplied_price": "19971241.792173",
         "type": "supply",
-        "price": 0.9999,
+        "price": 0.9989,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0x6c3ea9036406852006290770bedfcaba0e23a0e8&marketName=proto_mainnet_v3"
     },
     {
@@ -204,9 +204,9 @@
         "token": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
         "symbol": "wstETH",
         "borrow_apy": "0.29",
-        "total_borrow_price": "16855466.830728",
+        "total_borrow_price": "16855982.605391",
         "type": "borrow",
-        "price": 4085.7401,
+        "price": 4085.8628,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0&marketName=proto_mainnet_v3"
     },
     {
@@ -214,9 +214,9 @@
         "token": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
         "symbol": "wstETH",
         "supply_apy": "0.00",
-        "total_supplied_price": "4138943330.925699",
+        "total_supplied_price": "4139067633.026567",
         "type": "supply",
-        "price": 4085.7401,
+        "price": 4085.8628,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0&marketName=proto_mainnet_v3"
     },
     {
@@ -226,7 +226,7 @@
         "borrow_apy": "0.00",
         "total_borrow_price": "0.0",
         "type": "borrow",
-        "price": 124.9976,
+        "price": 124.8265,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9&marketName=proto_mainnet_v3"
     },
     {
@@ -234,9 +234,9 @@
         "token": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
         "symbol": "AAVE",
         "supply_apy": "0.00",
-        "total_supplied_price": "142608482.932531",
+        "total_supplied_price": "142413244.292248",
         "type": "supply",
-        "price": 124.9976,
+        "price": 124.8265,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9&marketName=proto_mainnet_v3"
     },
     {
@@ -254,7 +254,7 @@
         "token": "0x83f20f44975d03b1b09e64809b757c47f942beea",
         "symbol": "sDAI",
         "supply_apy": "0.00",
-        "total_supplied_price": "49573109.242539",
+        "total_supplied_price": "50273045.241084",
         "type": "supply",
         "price": 1.0674,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0x83f20f44975d03b1b09e64809b757c47f942beea&marketName=proto_mainnet_v3"
@@ -264,7 +264,7 @@
         "token": "0x853d955acef822db058eb8505911ed77f175b99e",
         "symbol": "FRAX",
         "borrow_apy": "24.61",
-        "total_borrow_price": "597348.076559",
+        "total_borrow_price": "597347.164789",
         "type": "borrow",
         "price": 0.9979,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0x853d955acef822db058eb8505911ed77f175b99e&marketName=proto_mainnet_v3"
@@ -274,7 +274,7 @@
         "token": "0x853d955acef822db058eb8505911ed77f175b99e",
         "symbol": "FRAX",
         "supply_apy": "17.60",
-        "total_supplied_price": "617126.178722",
+        "total_supplied_price": "617125.236763",
         "type": "supply",
         "price": 0.9979,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0x853d955acef822db058eb8505911ed77f175b99e&marketName=proto_mainnet_v3"
@@ -284,9 +284,9 @@
         "token": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2",
         "symbol": "MKR",
         "borrow_apy": "0.11",
-        "total_borrow_price": "361951.913654",
+        "total_borrow_price": "362463.00373",
         "type": "borrow",
-        "price": 3817.2421,
+        "price": 3822.6322,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2&marketName=proto_mainnet_v3"
     },
     {
@@ -294,17 +294,17 @@
         "token": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2",
         "symbol": "MKR",
         "supply_apy": "0.00",
-        "total_supplied_price": "52367219.170677",
+        "total_supplied_price": "52441163.705906",
         "type": "supply",
-        "price": 3817.2421,
+        "price": 3822.6322,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2&marketName=proto_mainnet_v3"
     },
     {
         "name": "AAVE_USD Coin",
         "token": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
         "symbol": "USDC",
-        "borrow_apy": "22.83",
-        "total_borrow_price": "1057177662.367968",
+        "borrow_apy": "21.93",
+        "total_borrow_price": "1055781311.367174",
         "type": "borrow",
         "price": 1.0001,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48&marketName=proto_mainnet_v3"
@@ -313,8 +313,8 @@
         "name": "AAVE_USD Coin",
         "token": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
         "symbol": "USDC",
-        "supply_apy": "18.66",
-        "total_supplied_price": "1109047536.207289",
+        "supply_apy": "17.90",
+        "total_supplied_price": "1109054905.701916",
         "type": "supply",
         "price": 1.0001,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48&marketName=proto_mainnet_v3"
@@ -324,9 +324,9 @@
         "token": "0xae78736cd615f374d3085123a210448e74fc6393",
         "symbol": "rETH",
         "borrow_apy": "0.26",
-        "total_borrow_price": "2683018.61259",
+        "total_borrow_price": "2683066.949314",
         "type": "borrow",
-        "price": 3888.8008,
+        "price": 3888.8708,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0xae78736cd615f374d3085123a210448e74fc6393&marketName=proto_mainnet_v3"
     },
     {
@@ -334,9 +334,9 @@
         "token": "0xae78736cd615f374d3085123a210448e74fc6393",
         "symbol": "rETH",
         "supply_apy": "0.00",
-        "total_supplied_price": "161897914.772888",
+        "total_supplied_price": "161900831.493144",
         "type": "supply",
-        "price": 3888.8008,
+        "price": 3888.8708,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0xae78736cd615f374d3085123a210448e74fc6393&marketName=proto_mainnet_v3"
     },
     {
@@ -344,9 +344,9 @@
         "token": "0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6",
         "symbol": "STG",
         "borrow_apy": "0.34",
-        "total_borrow_price": "25148.878562",
+        "total_borrow_price": "25099.878795",
         "type": "borrow",
-        "price": 0.7607,
+        "price": 0.7592,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6&marketName=proto_mainnet_v3"
     },
     {
@@ -354,9 +354,9 @@
         "token": "0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6",
         "symbol": "STG",
         "supply_apy": "0.01",
-        "total_supplied_price": "1156989.38326",
+        "total_supplied_price": "1154735.119336",
         "type": "supply",
-        "price": 0.7607,
+        "price": 0.7592,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6&marketName=proto_mainnet_v3"
     },
     {
@@ -364,9 +364,9 @@
         "token": "0xba100000625a3754423978a60c9317c58a424e3d",
         "symbol": "BAL",
         "borrow_apy": "10.35",
-        "total_borrow_price": "648920.618399",
+        "total_borrow_price": "648527.616668",
         "type": "borrow",
-        "price": 5.0462,
+        "price": 5.0431,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0xba100000625a3754423978a60c9317c58a424e3d&marketName=proto_mainnet_v3"
     },
     {
@@ -374,9 +374,9 @@
         "token": "0xba100000625a3754423978a60c9317c58a424e3d",
         "symbol": "BAL",
         "supply_apy": "1.40",
-        "total_supplied_price": "3634029.493675",
+        "total_supplied_price": "3631828.639145",
         "type": "supply",
-        "price": 5.0462,
+        "price": 5.0431,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0xba100000625a3754423978a60c9317c58a424e3d&marketName=proto_mainnet_v3"
     },
     {
@@ -384,9 +384,9 @@
         "token": "0xbe9895146f7af43049ca1c1ae358b0541ea49704",
         "symbol": "cbETH",
         "borrow_apy": "0.45",
-        "total_borrow_price": "941205.288223",
+        "total_borrow_price": "942068.315988",
         "type": "borrow",
-        "price": 3750.6291,
+        "price": 3754.0682,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0xbe9895146f7af43049ca1c1ae358b0541ea49704&marketName=proto_mainnet_v3"
     },
     {
@@ -394,9 +394,9 @@
         "token": "0xbe9895146f7af43049ca1c1ae358b0541ea49704",
         "symbol": "cbETH",
         "supply_apy": "0.01",
-        "total_supplied_price": "32335124.32076",
+        "total_supplied_price": "32364773.654886",
         "type": "supply",
-        "price": 3750.6291,
+        "price": 3754.0682,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0xbe9895146f7af43049ca1c1ae358b0541ea49704&marketName=proto_mainnet_v3"
     },
     {
@@ -404,9 +404,9 @@
         "token": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
         "symbol": "SNX",
         "borrow_apy": "3.16",
-        "total_borrow_price": "72298.369051",
+        "total_borrow_price": "72165.297049",
         "type": "borrow",
-        "price": 4.6003,
+        "price": 4.5918,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f&marketName=proto_mainnet_v3"
     },
     {
@@ -414,9 +414,9 @@
         "token": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
         "symbol": "SNX",
         "supply_apy": "0.01",
-        "total_supplied_price": "12230396.21972",
+        "total_supplied_price": "12207885.016069",
         "type": "supply",
-        "price": 4.6003,
+        "price": 4.5918,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f&marketName=proto_mainnet_v3"
     },
     {
@@ -424,9 +424,9 @@
         "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
         "symbol": "WETH",
         "borrow_apy": "2.60",
-        "total_borrow_price": "1995978408.341192",
+        "total_borrow_price": "1999711699.907397",
         "type": "borrow",
-        "price": 3530.6261,
+        "price": 3533.8976,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2&marketName=proto_mainnet_v3"
     },
     {
@@ -434,9 +434,9 @@
         "token": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
         "symbol": "WETH",
         "supply_apy": "1.82",
-        "total_supplied_price": "2385356830.6867",
+        "total_supplied_price": "2387567102.145751",
         "type": "supply",
-        "price": 3530.6261,
+        "price": 3533.8976,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2&marketName=proto_mainnet_v3"
     },
     {
@@ -444,9 +444,9 @@
         "token": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
         "symbol": "ENS",
         "borrow_apy": "0.31",
-        "total_borrow_price": "94134.280251",
+        "total_borrow_price": "93824.701621",
         "type": "borrow",
-        "price": 21.959,
+        "price": 21.8868,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0xc18360217d8f7ab5e7c516566761ea12ce7f9d72&marketName=proto_mainnet_v3"
     },
     {
@@ -454,9 +454,9 @@
         "token": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
         "symbol": "ENS",
         "supply_apy": "0.00",
-        "total_supplied_price": "6097456.21398",
+        "total_supplied_price": "6077403.560096",
         "type": "supply",
-        "price": 21.959,
+        "price": 21.8868,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0xc18360217d8f7ab5e7c516566761ea12ce7f9d72&marketName=proto_mainnet_v3"
     },
     {
@@ -464,9 +464,9 @@
         "token": "0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
         "symbol": "RPL",
         "borrow_apy": "5.56",
-        "total_borrow_price": "6297415.14302",
+        "total_borrow_price": "6299203.985413",
         "type": "borrow",
-        "price": 29.0393,
+        "price": 29.0475,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0xd33526068d116ce69f19a9ee46f0bd304f21a51f&marketName=proto_mainnet_v3"
     },
     {
@@ -474,9 +474,9 @@
         "token": "0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
         "symbol": "RPL",
         "supply_apy": "2.23",
-        "total_supplied_price": "12256323.290919",
+        "total_supplied_price": "12259804.819483",
         "type": "supply",
-        "price": 29.0393,
+        "price": 29.0475,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0xd33526068d116ce69f19a9ee46f0bd304f21a51f&marketName=proto_mainnet_v3"
     },
     {
@@ -484,9 +484,9 @@
         "token": "0xd533a949740bb3306d119cc777fa900ba034cd52",
         "symbol": "CRV",
         "borrow_apy": "7.56",
-        "total_borrow_price": "1247779.826415",
+        "total_borrow_price": "1246480.339273",
         "type": "borrow",
-        "price": 0.6865,
+        "price": 0.6858,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0xd533a949740bb3306d119cc777fa900ba034cd52&marketName=proto_mainnet_v3"
     },
     {
@@ -494,29 +494,29 @@
         "token": "0xd533a949740bb3306d119cc777fa900ba034cd52",
         "symbol": "CRV",
         "supply_apy": "1.02",
-        "total_supplied_price": "5746286.707708",
+        "total_supplied_price": "5740302.298013",
         "type": "supply",
-        "price": 0.6865,
+        "price": 0.6858,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0xd533a949740bb3306d119cc777fa900ba034cd52&marketName=proto_mainnet_v3"
     },
     {
         "name": "AAVE_Tether USD",
         "token": "0xdac17f958d2ee523a2206206994597c13d831ec7",
         "symbol": "USDT",
-        "borrow_apy": "8.97",
-        "total_borrow_price": "877799292.860119",
+        "borrow_apy": "10.28",
+        "total_borrow_price": "879416621.52909",
         "type": "borrow",
-        "price": 1.0002,
+        "price": 1.0003,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0xdac17f958d2ee523a2206206994597c13d831ec7&marketName=proto_mainnet_v3"
     },
     {
         "name": "AAVE_Tether USD",
         "token": "0xdac17f958d2ee523a2206206994597c13d831ec7",
         "symbol": "USDT",
-        "supply_apy": "7.24",
-        "total_supplied_price": "945753629.760047",
+        "supply_apy": "8.30",
+        "total_supplied_price": "945820161.041884",
         "type": "supply",
-        "price": 1.0002,
+        "price": 1.0003,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0xdac17f958d2ee523a2206206994597c13d831ec7&marketName=proto_mainnet_v3"
     },
     {
@@ -524,9 +524,9 @@
         "token": "0xdefa4e8a7bcba345f687a2f1456f5edd9ce97202",
         "symbol": "KNC",
         "borrow_apy": "1.95",
-        "total_borrow_price": "8880.120101",
+        "total_borrow_price": "8838.236046",
         "type": "borrow",
-        "price": 0.8857,
+        "price": 0.8815,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0xdefa4e8a7bcba345f687a2f1456f5edd9ce97202&marketName=proto_mainnet_v3"
     },
     {
@@ -534,9 +534,9 @@
         "token": "0xdefa4e8a7bcba345f687a2f1456f5edd9ce97202",
         "symbol": "KNC",
         "supply_apy": "0.15",
-        "total_supplied_price": "87254.181719",
+        "total_supplied_price": "86842.63785",
         "type": "supply",
-        "price": 0.8857,
+        "price": 0.8815,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0xdefa4e8a7bcba345f687a2f1456f5edd9ce97202&marketName=proto_mainnet_v3"
     },
     {
@@ -544,9 +544,9 @@
         "token": "0xf939e0a03fb07f59a73314e73794be0e57ac1b4e",
         "symbol": "crvUSD",
         "borrow_apy": "31.53",
-        "total_borrow_price": "274621.397371",
+        "total_borrow_price": "274595.601072",
         "type": "borrow",
-        "price": 0.995,
+        "price": 0.9949,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0xf939e0a03fb07f59a73314e73794be0e57ac1b4e&marketName=proto_mainnet_v3"
     },
     {
@@ -554,9 +554,9 @@
         "token": "0xf939e0a03fb07f59a73314e73794be0e57ac1b4e",
         "symbol": "crvUSD",
         "supply_apy": "23.51",
-        "total_supplied_price": "309742.335906",
+        "total_supplied_price": "309713.240556",
         "type": "supply",
-        "price": 0.995,
+        "price": 0.9949,
         "link": "https://app.aave.com/reserve-overview/?underlyingAsset=0xf939e0a03fb07f59a73314e73794be0e57ac1b4e&marketName=proto_mainnet_v3"
     }
 ]

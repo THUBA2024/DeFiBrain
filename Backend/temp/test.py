@@ -6,7 +6,7 @@ url = 'http://127.0.0.1:5000/request'
 
 # 准备测试数据，这里是 JSON 格式的数据
 data = {
-    'query': 'i have some eth on near chain, and i want highest rewards, any investment advice for me? '
+    'query': 'i have some eth on eth chain, and i want highest rewards, any investment advice for me? '
 }
 
 # 发送 POST 请求
