@@ -1,0 +1,26 @@
+.customButton {
+    background-color: rgb(0,0,0,0);
+    border: 2px solid white;
+    color: white;
+    border-radius: 30px;
+    width: 130px;
+}
+
+.customButton:hover {
+    background-color: white;
+    color: black;
+}
+
+.customCardButton {
+    background-color: rgb(0,0,0,0);
+    border: 2px solid black;
+    color: black;
+    border-radius: 30px;
+    width: 130px;
+    height: 40px;
+}
+
+.customCardButton:hover {
+    background-color: black;
+    color: white;
+}
