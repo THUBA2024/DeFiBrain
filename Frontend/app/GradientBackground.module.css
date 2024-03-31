@@ -1,0 +1,23 @@
+
+/* 3333333333333333 For Home bg gradient color 33333333333333333333333 */
+/* GradientBackground.module.css */
+.gradientBackground {
+    /* 从左下到右上的线性渐变，最后是浅灰色背景 */
+    background: linear-gradient(to right top, transparent, transparent), 
+                linear-gradient(to right top, #9A4AD9, #80b4d6), 
+                linear-gradient(#f5f5f5, #f5f5f5);
+    
+    /* 设置渐变的背景大小以覆盖特定区域，如下所示，你可以根据需要调整百分比 */
+    background-size: 100% 100%, 20% 20%, 100% 100%;
+    background-position: center, left bottom, center; 
+    background-repeat: no-repeat;
+  
+    /* 其他样式，如需要 */
+    height: 100vh;
+    width: 100%;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
