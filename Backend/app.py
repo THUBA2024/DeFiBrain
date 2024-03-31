@@ -153,6 +153,6 @@ def get_best_product():
 
 
 if __name__ == '__main__':
-    # update_aavm()
-    # update_burrow()
+    update_aavm()
+    update_burrow()
     app.run(host='0.0.0.0', port=5000, debug=False)
